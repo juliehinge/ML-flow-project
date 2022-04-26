@@ -1,0 +1,2 @@
+ColumnTransformer(remainder='passthrough',
+                  transformers=[('poly', PolynomialFeatures(), ['Speed'])])

@@ -1,0 +1,5 @@
+Pipeline(steps=[('one_hot', OneHot()),
+                ('col_trans',
+                 ColumnTransformer(remainder='passthrough',
+                                   transformers=[('poly', PolynomialFeatures(),
+                                      ...

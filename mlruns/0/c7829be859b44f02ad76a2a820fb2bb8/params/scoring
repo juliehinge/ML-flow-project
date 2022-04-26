@@ -1,0 +1,1 @@
+make_scorer(mean_squared_error, greater_is_better=False)
